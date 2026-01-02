@@ -267,25 +267,7 @@
           url: http://simplelineicons.com/
           description: Simple line Icons pack
       
-    - term: LOGO设计
-      links:
-        - title: Iconsfeed
-          logo: images/logos/iconsfeed.png
-          url: http://www.iconsfeed.com/
-          description: iOS icons gallery
-        - title: iOS Icon Gallery
-          logo: images/logos/iosicongallery.png
-          url: http://iosicongallery.com/
-          description: Showcasing beautiful icon designs from the iOS App Store
-        - title: World Vector Logo
-          logo: images/logos/worldvectorlogo.png
-          url: https://worldvectorlogo.com/
-          description: Brand logos free to download
-        - title: Instant Logo Search
-          logo: images/logos/InstantLogoSearch.png
-          url: http://instantlogosearch.com/
-          description: Search & download thousands of logos instantly
-
+   
     - term: 平面素材
       links:
         - title: freepik
