@@ -1,33 +1,20 @@
 ---
 
-- taxonomy: 插件
+- taxonomy: BT资源站
   list:
-    - term: Chrome插件
+    - terms: 电影
       links:
-        - title: wappalyzer
-          url: https://www.wappalyzer.com/
-          logo: images/logos/wappalyzer.png
-          description: Identify technology on websites
-        - title: Panda
-          url: http://usepanda.com/
-          logo: images/logos/usepanda.png
-          description: A smart news reader built for productivity.
-        - title: sizzy
-          url: https://sizzy.co/
-          logo: images/logos/sizzy.png
-          description: A tool for developing responsive websites crazy-fast
-        - title: csspeeper
-          url: https://csspeeper.com/
-          logo: images/logos/csspeeper.png
-          description: Smart CSS viewer tailored for Designers.
-        - title: insight
-          url: http://insight.io/
-          logo: images/logos/insight.png
-          description: IDE-like code search and navigation, on the cloud
-        - title: mustsee
-          url: http://mustsee.earth/
-          logo: images/logos/mustsee.png
-          description: Discover the world's most beautiful places at every opened tab.
+        - title: 音范丝
+          url: https://www.yinfans.cc/
+          logo: static/images/logos/音范丝.png
+          description: 免费且质量过关的BT资源站，只有热门资源
+    - terms: 动漫
+      links: 
+        - title: 蜜柑计划 - mikan
+          url: https://mikan.tangbai.cc/
+          logo:
+
+  
 
 
 
@@ -38,12 +25,12 @@
   links: 
     - title: mocreak
       url: https://www.mocreak.com/
-      logo: images/logos/logo.png
+      logo: images/logos/Mocreak.png
       description: 一键自动化下载，安装，激活office的无脑神器
 
     - title: HEU_KMS_Activitor
       url: https://github.com/zbezj/HEU_KMS_Activator/releases
-      logo: images/logos/logo.png
+      logo: images/logos/Github.png
       description: Windows和Office激活工具,一键自动识别，安装，激活
      
 
