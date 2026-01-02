@@ -952,6 +952,19 @@
       url: http://ued.ctrip.com/
       logo: images/logos/ctrip.png
       description: 携程设计委员会-Ctrip Design Committee
+
+- taxonomy:简单无脑的自动化github工具
+  icon: fa-star
+  links: 
+    - title: mocreak
+      url: https://www.mocreak.com/
+      logo: images/logos/logo.png
+      description: 一键自动化下载，安装，激活office的无脑神器
+
+    - title: HEU_KMS_Activitor
+      url: https://github.com/zbezj/HEU_KMS_Activator/releases
+      logo: images/logos/logo.png
+      description: Windows和Office激活工具,一键自动识别，安装，激活
      
 
 
