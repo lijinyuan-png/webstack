@@ -14,14 +14,21 @@
         - title: 蜜柑计划 - mikan
           url: https://mikan.tangbai.cc/
           logo: static/images/logos/mikan-pic.png
-          description: 非常好用的公网bt动漫下载站，选择丰富，ui美观，使用方便
+          description: BT动漫资源丰富，界面美观且体验友好
 
         - title: 动漫花园
           url: https://share.dmhy.org/
           logo: static/images/logos/dmhy.png
           description: 老牌动漫bt站，众多字幕组首发据点
 
+        - title: 末日动漫资源库
+          url: https://share.acgnx.se/
+          logo: static/images/logos/末日.png
+          description: 种子资源众多，音乐，动漫，游戏，日剧，特摄均有涉猎
 
+        - title: nyaa
+          url: https://nyaa.land/
+          description: 国际知名站点，动漫为主，资源丰富
 
 
 
