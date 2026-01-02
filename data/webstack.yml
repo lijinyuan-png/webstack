@@ -21,25 +21,7 @@
           logo: static/images/logos/dmhy.png
           description: 老牌动漫bt站，众多字幕组首发据点
 
-- taxonomy: 灵感采集
-  icon: fa-regular fa-lightbulb
-  list: 
-    - term: 发现产品
-      links:
-        - title: Producthunt
-          logo: images/logos/producthunt.png
-          url: https://www.producthunt.com/
-          description: 发现新鲜有趣的产品
-    - term: 界面灵感
-      links:
-        - title: Pttrns
-          logo: images/logos/Pttrns.png
-          url: https://www.pttrns.com/
-          description: Check out the finest collection of design patterns, resources, mobile apps and inspiration
-        - title: Collect UI
-          logo: images/logos/CollectUI.png
-          url: http://collectui.com/
-          description: Daily inspiration collected from daily ui archive and beyond.
+
 
 
 
