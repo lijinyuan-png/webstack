@@ -1,34 +1,39 @@
 ---
 
-- taxonomy: BT资源站
+- taxonomy: 影音娱乐
   list:
-    - term: 电影
+    - term: 在线站点
       links:
         - title: 音范丝
           url: https://www.yinfans.cc/
           logo: static/images/logos/音范丝.png
           description: 免费且质量过关的BT资源站，只有热门资源
 
-    - term: 动漫
+    - term: 资源下载站
       links: 
         - title: 蜜柑计划 - mikan
           url: https://mikan.tangbai.cc/
           logo: static/images/logos/mikan-pic.png
-          description: BT动漫资源丰富，界面美观且体验友好
+          description: 动漫BT站，资源丰富优质，体验5星
 
         - title: 动漫花园
           url: https://share.dmhy.org/
           logo: static/images/logos/dmhy.png
-          description: 老牌动漫bt站，众多字幕组首发据点
+          description: 动漫bt站，老牌站点，众多字幕组首发据点
 
         - title: 末日动漫资源库
           url: https://share.acgnx.se/
           logo: static/images/logos/末日.png
-          description: 种子资源众多，音乐，动漫，游戏，日剧，特摄均有涉猎
+          description: 二次元bt站，音乐，动漫，游戏，日剧，特摄均有涉猎
 
         - title: nyaa
           url: https://nyaa.land/
-          description: 国际知名站点，动漫为主，资源丰富
+          description: 二次元bt站，国际知名站点，动漫为主，资源丰富
+
+        - title: 音范丝
+          url: https://www.yinfans.cc/
+          logo: static/images/logos/音范丝.png
+          description: 电影bt站，免费且质量过关的BT资源站，只有热门资源
 
 
 
