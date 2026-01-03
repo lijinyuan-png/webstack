@@ -1,15 +1,15 @@
 ---
 
-- taxonomy: 影音娱乐
+- taxonomy: 影音下载
   list:
-    - term: 在线站点
+    - term: 电影资源
       links:
         - title: 音范丝
           url: https://www.yinfans.cc/
           logo: static/images/logos/音范丝.png
           description: 免费且质量过关的BT资源站，只有热门资源
 
-    - term: 资源下载站
+    - term: 动漫资源
       links: 
         - title: 蜜柑计划 - mikan
           url: https://mikan.tangbai.cc/
@@ -30,11 +30,20 @@
           url: https://nyaa.land/
           description: 二次元bt站，国际知名站点，动漫为主，资源丰富
 
-        - title: 音范丝
-          url: https://www.yinfans.cc/
-          logo: static/images/logos/音范丝.png
-          description: 电影bt站，免费且质量过关的BT资源站，只有热门资源
 
+- taxonomy: 在线影娱
+  list:
+    - term: 漫画
+      links:
+        - title: komiic
+          url: https://komiic.com/
+          description: 漫画在线站，每日有阅读限制
+
+    - term: 影视
+      links:
+        - title: 注视gaze
+          url: https://gaze.run/
+          description: 在线观影，小屏够用，体验还行
 
 
 
