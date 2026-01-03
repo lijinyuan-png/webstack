@@ -7,7 +7,7 @@
         - title: 音范丝
           url: https://www.yinfans.cc/
           logo: static/images/logos/音范丝.png
-          description: 免费且质量过关的BT资源站，只有热门资源
+          description: 免费且质量优秀的BT资源站，资源不多但精
 
     - term: 动漫资源
       links: 
@@ -37,13 +37,25 @@
       links:
         - title: komiic
           url: https://komiic.com/
-          description: 漫画在线站，每日有阅读限制
+          description: 漫画在线站，每日有800页阅读限制，足够使用
 
     - term: 影视
       links:
         - title: 注视gaze
           url: https://gaze.run/
           description: 在线观影，小屏够用，体验还行
+
+
+- taxonomy: 游戏资源
+  links:
+    - title: fitgirl
+      url: https://fitgirl-repacks.site/popular-repacks/
+      description: 国外知名repack组，资源安装运行
+
+  links:
+    - title: flysheep
+      url: https://sway.cloud.microsoft/ruijH7BYH9RwA9HG?ref=Link
+      description: flysheep网盘游戏资源，搬运国外知名组为主
 
 
 
