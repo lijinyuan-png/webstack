@@ -73,7 +73,7 @@
 - taxonomy: windows系统工具
   icon: fa-star
   links: 
-    - title: mocreak1
+    - title: mocreak
       icon: fa-star
       url: https://www.mocreak.com/
       logo: static/images/logos/Mocreak.png
@@ -82,7 +82,7 @@
     - title: HEU_KMS_Activitor
       url: https://github.com/zbezj/HEU_KMS_Activator/releases
       logo: static/images/logos/Github.png
-      description: Windows和Office激活工具,一键自动识别，安装，激活
+      description: 🪜Windows和Office激活工具,一键自动识别，安装，激活
      
 
 
