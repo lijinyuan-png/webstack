@@ -21,12 +21,12 @@
           logo: static/images/logos/dmhy.png
           description: 动漫bt站，老牌站点，众多字幕组首发据点
 
-        - title: 末日动漫资源库 3🌟
+        - title: 末日动漫资源库 3.5🌟
           url: https://share.acgnx.se/
           logo: static/images/logos/末日.png
           description: 🪜二次元bt站，音乐，动漫，游戏，日剧，特摄均有涉猎
 
-        - title: nyaa 4🌟
+        - title: nyaa 3.5🌟
           url: https://nyaa.land/
           description: 🪜二次元bt站，国际知名站点，动漫为主，资源丰富
 
@@ -35,19 +35,29 @@
   list:
     - term: 漫画📖
       links:
-        - title: komiic 3.5🌟
+        - title: komiic 4🌟
           url: https://komiic.com/
           description: 漫画在线站，每日有800页阅读限制，足够使用
 
-        - title: mangabz 4🌟
+        - title: mangabz 3.5🌟
           url: https://www.mangabz.com/
           description: 🪜漫画在线站，
 
+        - title: 动漫啦 3.5🌟
+          url: https://www.dongman.la/
+          description: 漫画在线，访问略微受限
+
+
     - term: 影视🍿
       links:
-        - title: 注视gaze 3.5🌟
+        - title: 注视gaze 4🌟
           url: https://gaze.run/
-          description: 在线观影，小屏够用，体验还行
+          description: 在线观影，小屏够用，体验不错
+
+        - title: 稀饭动漫 4🌟
+          url: https://xn--6fr867dwnhpu5a.com/
+          description: 在线动漫，质量优良，还算稳定
+    
 
 
 - taxonomy: 游戏资源🎮
@@ -57,7 +67,7 @@
       url: https://fitgirl-repacks.site/popular-repacks/
       description: 🪜国外知名repack组，bt下载，资源安装运行，资源优质
 
-    - title: flysheep 5🌟
+    - title: flysheep 4.5🌟
       url: https://sway.cloud.microsoft/ruijH7BYH9RwA9HG?ref=Link
       description: 搬运国外破解组pc游戏，夸克网盘下载（网赚盘盈利），资源很好
 
