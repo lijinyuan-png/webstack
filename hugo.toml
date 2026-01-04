@@ -2,7 +2,6 @@ baseURL = "http://example.org/"
 languageCode = "zh-CN"
 title = "答案导航"
 theme = "hugo-webstack"
-[params]
 subtitle = "这是一个筛选优质资源的导航网站"
 
 
@@ -16,6 +15,7 @@ copyright = "Darwin"
 [params]
   keywords = "白嫖导航,webstack,hugo"
   description = "Webstack Hugo版主题,网址导航"
+  subtitle = "这是一个筛选优质资源的导航网站"
 
 #是否开启搜索栏，true开启，false关闭
 [params.search]
