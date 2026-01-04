@@ -1,88 +1,93 @@
 ---
 
-- taxonomy: 影音下载
+- taxonomy: 影音下载⏬
   list:
-    - term: 电影资源
+    - term: 电影资源🎞️
       links:
-        - title: 音范丝
+        - title: 音范丝 3.5🌟
           url: https://www.yinfans.cc/
           logo: static/images/logos/音范丝.png
           description: 免费且质量优秀的BT资源站，资源不多但精
 
-    - term: 动漫资源
+    - term: 动漫资源(❁´◡`❁)
       links: 
-        - title: 蜜柑计划 - mikan
+        - title: 蜜柑计划 4.5🌟
           url: https://mikan.tangbai.cc/
           logo: static/images/logos/mikan-pic.png
           description: 动漫BT站，资源丰富优质，体验5星
 
-        - title: 动漫花园
+        - title: 动漫花园 4🌟
           url: https://share.dmhy.org/
           logo: static/images/logos/dmhy.png
           description: 动漫bt站，老牌站点，众多字幕组首发据点
 
-        - title: 末日动漫资源库
+        - title: 末日动漫资源库 3🌟
           url: https://share.acgnx.se/
           logo: static/images/logos/末日.png
-          description: 二次元bt站，音乐，动漫，游戏，日剧，特摄均有涉猎
+          description: 🪜二次元bt站，音乐，动漫，游戏，日剧，特摄均有涉猎
 
-        - title: nyaa
+        - title: nyaa 4🌟
           url: https://nyaa.land/
-          description: 二次元bt站，国际知名站点，动漫为主，资源丰富
+          description: 🪜二次元bt站，国际知名站点，动漫为主，资源丰富
 
 
-- taxonomy: 在线影娱
+- taxonomy: 在线影娱🎥
   list:
-    - term: 漫画
+    - term: 漫画📖
       links:
-        - title: komiic
+        - title: komiic 3.5🌟
           url: https://komiic.com/
           description: 漫画在线站，每日有800页阅读限制，足够使用
 
-    - term: 影视
       links:
-        - title: 注视gaze
+        - title: mangabz 4🌟
+          url: https://www.mangabz.com/
+          description: 🪜漫画在线站，
+
+    - term: 影视🍿
+      links:
+        - title: 注视gaze 3.5🌟
           url: https://gaze.run/
           description: 在线观影，小屏够用，体验还行
 
 
-- taxonomy: 游戏资源
+- taxonomy: 游戏资源🎮
   icon: fa-gamepad
   links:
-    - title: fitgirl
+    - title: fitgirl 4.5🌟
       url: https://fitgirl-repacks.site/popular-repacks/
-      description: 国外知名repack组，bt下载，资源安装运行，资源优质
+      description: 🪜国外知名repack组，bt下载，资源安装运行，资源优质
 
-    - title: flysheep
+    - title: flysheep 5🌟
       url: https://sway.cloud.microsoft/ruijH7BYH9RwA9HG?ref=Link
       description: 搬运国外破解组pc游戏，夸克网盘下载（网赚盘盈利），资源很好
 
-    - title: switch喵喵喵
+    - title: switch喵喵喵 3🌟
       url: https://www.switchmmm.com/
       description: 主机游戏，网盘下载，体验一般（网赚盘盈利）
 
-    - title: 老男人游戏网
+    - title: 老男人游戏网 2.5🌟
       url: https://www.oldmantvg.net/
       description: 主机游戏，网盘下载，注册象征性收费（5年30元）
 
-    - title: switch520
+    - title: switch520 3.5🌟
       url: https://www.laoquzhang.com/
       description: pc游戏，解压即玩，网盘下载，资源一般
 
 
-- taxonomy: windows系统工具
+- taxonomy: windows系统工具🖥️
   icon: fa-star
   links: 
-    - title: mocreak
+    - title: mocreak 5🌟
       icon: fa-star
       url: https://www.mocreak.com/
       logo: static/images/logos/Mocreak.png
-      description: office一键安装激活
+      description: 🖥️office一键安装激活
 
-    - title: HEU_KMS_Activitor
+    - title: HEU_KMS_Activitor 5🌟
       url: https://github.com/zbezj/HEU_KMS_Activator/releases
       logo: static/images/logos/Github.png
-      description: 🪜Windows和Office激活工具,一键自动识别，安装，激活
+      description: 🖥️Windows和Office激活工具,一键自动识别，安装，激活
      
 
 
