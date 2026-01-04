@@ -1,6 +1,7 @@
 ---
 
 - taxonomy: 影音下载⏬
+  icon: fa-download
   list:
     - term: 电影资源🎞️
       links:
@@ -32,6 +33,7 @@
 
 
 - taxonomy: 在线影娱🎥
+  icon: fa-film
   list:
     - term: 漫画📖
       links:
