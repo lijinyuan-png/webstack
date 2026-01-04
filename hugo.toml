@@ -1,8 +1,10 @@
 baseURL = "http://example.org/"
 languageCode = "zh-CN"
 title = "答案导航"
-subtitle = "这是一个筛选优质资源的导航网站"
 theme = "hugo-webstack"
+[params]
+subtitle = "这是一个筛选优质资源的导航网站"
+
 
 #true:允许大写字母url路径，false:将url路径转换成小写
 disablePathToLower = true
