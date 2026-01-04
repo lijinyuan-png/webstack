@@ -47,11 +47,11 @@
 
 
 - taxonomy: 游戏资源
-
+  icon: fa-gamepad
   links:
     - title: fitgirl
       url: https://fitgirl-repacks.site/popular-repacks/
-      description: 国外知名repack组，资源安装运行，资源优质
+      description: 国外知名repack组，bt下载，资源安装运行，资源优质
 
     - title: flysheep
       url: https://sway.cloud.microsoft/ruijH7BYH9RwA9HG?ref=Link
