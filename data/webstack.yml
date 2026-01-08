@@ -1,6 +1,6 @@
 ---
 
-- taxonomy: 影音下载⏬
+- taxonomy: 资源下载⏬
   icon: fa-download
   list:
     - term: 电影资源🎞️
@@ -30,6 +30,12 @@
         - title: nyaa 3.5🌟
           url: https://nyaa.land/
           description: 🪜二次元bt站，国际知名站点，动漫为主，资源丰富
+
+    - term: 漫画资源
+      links: 
+       - title:补档冰室 4.5🌟
+          url: https://www.manhuabudangbbs.com/
+          description: 漫画下载，网盘下载，资源丰富
 
 
 - taxonomy: 在线影娱🎥
