@@ -17,7 +17,7 @@ a:hover,a:focus{color:#232323;text-decoration:none}
 .ps-container.ie .ps-scrollbar-x,.ps-container.ie .ps-scrollbar-y{visibility:hidden}
 .ps-container.ie:hover .ps-scrollbar-x,.ps-container.ie:hover .ps-scrollbar-y,.ps-container.ie.hover .ps-scrollbar-x,.ps-container.ie.hover .ps-scrollbar-y{visibility:visible}
 .xe-comment-entry img{float:left;display:block;margin-right:10px}
-.xe-comment {transform: translateY(-50%);position: absolute;margin-left: 50px;top: 50%;}
+.xe-comment {transform: translateY(-50%);position: absolute;margin-left: 15px;top: 50%;} .xe-comment.no-logo {margin-left: 0;position: relative;transform: none;top: auto;}
 .xe-comment p{margin-bottom:0px;margin-right:15px;font-size:12px}
 .img-circle {padding: 7px 0;}
 /* .overflowClip_1{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;word-break:break-all;display:-webkit-box!important;-webkit-line-clamp:1;-webkit-box-orient:vertical}
@@ -303,15 +303,15 @@ input[type="button"],input[type="submit"]{background-color:#222;border:0;-webkit
 @media screen and (max-width:767px){.xe-card{position:relative;height:100px;margin:10px 0 0 0;font-size:12px;}.box2{height:100px}.img-circle{padding:0 0;}.xe-widget.xe-conversations{margin:0 5px}.xe-comment p{font-size:10px}}
 /* --- 卡片显示列数 自适应 --- */
 /* 手机横屏 */ 
-@media (min-width: 520px) and (max-width: 768px) {.col-xs-6{width:33.333%}}
+@media (min-width: 520px) and (max-width: 768px) {.col-xs-6{width:50%}}
 /* 平板设备 */ 
-@media (min-width: 768px) and (max-width: 992px) {.col-sm-4{width:33.333%}}
+@media (min-width: 768px) and (max-width: 992px) {.col-sm-6{width:50%}}
 /* 平板设备 */
-@media (min-width: 992px) and (max-width: 1200px) {.col-sm-4{width:25%}}
+@media (min-width: 992px) and (max-width: 1200px) {.col-md-4{width:33.333%}}
 /* 笔记本电脑 */ 
-@media screen and (min-width:1200px){.col-md-3{width:20%}}
+@media screen and (min-width:1200px){.col-md-4{width:25%}}
 /* 高分辨率大屏 */ 
-@media screen and (min-width:1600px){.col-md-3{width:16.666%}}
+@media screen and (min-width:1600px){.col-md-4{width:20%}}
 /*本地搜索框*/
 #overlay{position:fixed;top:-100%;left:0;width:100%;height:100%;z-index:1000;animation:slideDown .5s forwards}
 #search-box{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:300px;padding:15px 15px 0 15px;border-radius:5px;background-color:#fff;box-shadow:0 0 10px rgba(0,0,0,.2)}
