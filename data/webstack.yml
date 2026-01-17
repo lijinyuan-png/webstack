@@ -28,15 +28,22 @@
           url: https://share.acgnx.se/
           logo: static/images/logos/末日.png
           description: 二次元bt站，音乐，动漫，游戏，日剧，特摄均有涉猎
+          tags: [动漫, BT, 下载]
 
         - title: nyaa
           url: https://nyaa.land/
           description: 二次元bt站，国际知名站点，动漫为主，资源丰富
+          tags: [动漫, BT, 下载]
 
-
-
-
-
+- taxonomy: 音乐
+  list:
+    - term: 下载
+      links:
+        - title: mocreak
+          url: https://www.mocreak.com/
+          logo: static/images/logos/Mocreak.png
+          description: office一键安装激活
+          tags: [音乐, 下载]
 
 - taxonomy: windows系统工具
   icon: fa-star
@@ -45,7 +52,8 @@
       url: https://www.mocreak.com/
       logo: static/images/logos/Mocreak.png
       description: office一键安装激活
-
+      tags: [windows系统工具, 下载]
+      
     - title: HEU_KMS_Activitor
       url: https://github.com/zbezj/HEU_KMS_Activator/releases
       logo: static/images/logos/Github.png
