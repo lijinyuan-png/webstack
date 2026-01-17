@@ -136,13 +136,6 @@
                                     {{ end }}
                                 </div>
                                 {{ end }}
-                                {{ if .tags }}
-                                <div class="tags">
-                                    {{ range .tags }}
-                                    <span class="tag">{{ . }}</span>
-                                    {{ end }}
-                                </div>
-                                {{ end }}
                             </div>
                         </div>
                     </a>
@@ -160,6 +153,13 @@
                                     <strong>{{ .title }}</strong>
                                 </div>
                                 <p class="overflowClip_2">{{ .description }}</p>
+                                {{ if .tags }}
+                                <div class="tags">
+                                    {{ range .tags }}
+                                    <span class="tag">{{ . }}</span>
+                                    {{ end }}
+                                </div>
+                                {{ end }}
                             </div>
                         </div>
                     </a>
@@ -187,6 +187,13 @@
                                     <strong>{{ .title }}</strong>
                                 </div>
                                 <p class="overflowClip_2">{{ .description }}</p>
+                                {{ if .tags }}
+                                <div class="tags">
+                                    {{ range .tags }}
+                                    <span class="tag">{{ . }}</span>
+                                    {{ end }}
+                                </div>
+                                {{ end }}
                             </div>
                         </div>
                     </a>
@@ -204,6 +211,13 @@
                                     <strong>{{ .title }}</strong>
                                 </div>
                                 <p class="overflowClip_2">{{ .description }}</p>
+                                {{ if .tags }}
+                                <div class="tags">
+                                    {{ range .tags }}
+                                    <span class="tag">{{ . }}</span>
+                                    {{ end }}
+                                </div>
+                                {{ end }}
                             </div>
                         </div>
                     </a>
