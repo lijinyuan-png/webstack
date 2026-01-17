@@ -141,7 +141,7 @@
                     </a>
                 </div>
                 {{ else }}
-                <div class="xe-card col-xs-6 col-sm-6 col-md-4 geticon">
+                <div class="xe-card col-xs-6 col-sm-4 col-md-3 geticon">
                     <a href="{{ .url }}" target="_blank" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" 
                     title="{{ .description }} {{ .url }}">
                         <div class="xe-comment-entry">
@@ -176,10 +176,10 @@
             <div class="row">
             {{ range .links }}
                 {{ if .qrcode }}
-                <div class="xe-card col-xs-6 col-sm-6 col-md-4 qrcode geticon">
+                <div class="xe-card col-xs-6 col-sm-4 col-md-3 qrcode geticon">
                     <a href="{{ .url }}" target="_blank" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
                         <div class="xe-comment-entry">
-                            <div class="xe-comment no-logo">
+                            <div class="xe-comment">
                                 <div class="xe-user-name overflowClip_1">
                                     <strong>{{ .title }}</strong>
                                 </div>
