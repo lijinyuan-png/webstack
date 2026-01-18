@@ -61,6 +61,13 @@
       description: 一站式Galgame文化社区！galgame专精，自建网盘，纯公益网站
       tags: [galgame游戏, 网盘下载]
 
+- taxonomy: 漫画
+  icon: fa-comic-book
+  links: 
+    - title: komiic
+      url: https://komiic.com/
+      description: 在线漫画网站，速度一般，资源量不多，质量一般
+      tags: [漫画,在线阅读]
 
 - taxonomy: windows工具
   icon: fa-tools
