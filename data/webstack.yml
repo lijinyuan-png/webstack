@@ -6,7 +6,6 @@
       links:
         - title: 音范丝
           url: https://www.yinfans.cc/
-          logo: static/images/logos/音范丝.png
           description: 免费且质量过关的BT资源站，只有热门资源
           tags: [电影, BT, 下载]
 
@@ -14,19 +13,16 @@
       links: 
         - title: 蜜柑计划 - mikan
           url: https://mikan.tangbai.cc/
-          logo: static/images/logos/mikan-pic.png
           description: 动漫BT站，资源丰富优质，体验5星
           tags: [动漫, BT, 下载]
 
         - title: 动漫花园
           url: https://share.dmhy.org/
-          logo: static/images/logos/dmhy.png
           description: 动漫bt站，老牌站点，众多字幕组首发据点
           tags: [动漫, BT, 下载]
 
         - title: 末日动漫资源库
           url: https://share.acgnx.se/
-          logo: static/images/logos/末日.png
           description: 二次元bt站，音乐，动漫，游戏，日剧，特摄均有涉猎
           tags: [动漫, BT, 下载]
 
@@ -35,68 +31,64 @@
           description: 二次元bt站，国际知名站点，动漫为主，资源丰富
           tags: [动漫, BT, 下载]
 
-- taxonomy: 音乐
-  list:
-    - term: 下载
-      links:
-        - title: mocreak
-          url: https://www.mocreak.com/
-          logo: static/images/logos/Mocreak.png
-          description: office一键安装激活
-          tags: [音乐, 下载]
+        - title: 稀饭动漫
+          url: https://xifan.moe/
+          description: 动漫在线看，画质不错，体验较好
+          tags: [动漫, 在线]
 
-- taxonomy: windows系统工具
+
+- taxonomy: 游戏
+  icon: fa-gamepad
+  links: 
+    - title: fitgirl
+      url: https://fitgirl-repacks.site/popular-repacks/
+      description: 国外知名游戏repack组，提供游戏本体以及补丁
+      tags: [游戏, bt下载，安装运行]
+
+    - title: flysheep资源避难所
+      url: https://sway.cloud.microsoft/ruijH7BYH9RwA9HG?ref=Link
+      description: 国内游戏搬运站，资源齐全，质量不错
+      tags: [游戏, 网盘下载，安装运行]
+
+    - title: switch520
+      url: https://www.laoquzhang.com/
+      description: 国内游戏搬运站，搬运付费游戏站内容，质量一般
+      tags: [游戏, 网盘下载，解压即撸]
+
+
+- taxonomy: windows工具
   icon: fa-star
   links: 
     - title: mocreak
       url: https://www.mocreak.com/
-      logo: static/images/logos/Mocreak.png
       description: office一键安装激活
-      tags: [windows系统工具, 下载]
+      tags: [激活工具,office]
       
     - title: HEU_KMS_Activitor
       url: https://github.com/zbezj/HEU_KMS_Activator/releases
-      logo: static/images/logos/Github.png
       description: Windows和Office激活工具,一键自动识别，安装，激活
-     
+      tags: [激活工具, windows，office]
+
+
+- taxonomy: 破解软件资源
+  icon: fa-star
+  links: 
+    - title: 果核剥壳
+      url: https://www.ghxi.com/
+      description: 绿色破解软件下载网站，资源丰富，可信度较高
+      tags: [论坛，破解软件，软件下载]
+      
+    - title: 吾爱破解
+      url: https://www.52pojie.cn/
+      description: 专业的软件破解技术论坛，老牌破解站，可信度很高
+      tags: [论坛，破解软件，软件下载]
+
+     - title: v2ex
+      url: https://www.v2ex.com/
+      description: 好玩的软件论坛，分享有创意的软件以及思路
+      tags: [论坛，软件分享]
 
 
 
-     
-- taxonomy: 友情链接
-  icon: fa-link
-  friend:
-    - title: 子页面一
-      url: sub1
-      description: 本站子页面1
-    - title: 子页面二
-      url: sub2
-      description: 本站子页面2
-    - title: webstack.cc
-      url: https://webstack.cc
-      description: webstack - 设计师网址导航
-    - title: 一为导航
-      url: https://nav.iowen.cn/
-      description: onenav主题演示站
-    - title: 趣导航
-      url: https://qssily.com/
-    - title: 404导航
-      url: https://www.404dh.icu/
-      description: 只导航优质资源
-    - title: OPENI
-      url: https://openi.cn/
-    - title: 飞猪ai导航
-      url: https://feizhuke.com/
-      description: AI工具集箱
-    - title: bioit导航
-      url: https://www.bioit.top/
-      description:
-    - title: 所长导航
-      url: https://liutongxu.github.io/
-      description:
-    - title: 一为webstack
-      url: https://webstack.iotheme.cn/
-    - title: iplaycode
-      url: https://iplaycode.github.io/nav/
-      description: iplaycode的demo导航网站
 ---
+     
