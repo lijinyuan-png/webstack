@@ -61,6 +61,11 @@
       description: 一站式Galgame文化社区！galgame专精，自建网盘，纯公益网站
       tags: [galgame游戏, 网盘下载]
 
+    - title: 芝士游戏
+      url: https://cheesegame.my.canvasite.cn/
+      description: 07年站长运营的纯公益游戏网站，靠网盘转存推广回血，资源丰富，界面美观
+      tags: [游戏, 网盘下载]
+
 - taxonomy: 漫画
   icon: fa-book-open
   links: 
