@@ -1,6 +1,11 @@
 {{ if .Site.Params.search.enable }}
 <!-- 搜索 -->
 <div id="search" class="s-search">
+  {{ if .Site.Params.subtitle }}
+  <div class="site-subtitle" style="text-align: center; margin-bottom: 20px; color: #878888; font-size: 16px;">
+    {{ .Site.Params.subtitle }}
+  </div>
+  {{ end }}
     <div id="search-list" class="hide-type-list">
         <div class="s-type">
             <span></span>

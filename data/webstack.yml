@@ -56,6 +56,11 @@
       description: 国内游戏搬运站，搬运付费游戏站内容，质量一般
       tags: [游戏, 网盘下载, 解压即撸]
 
+    - title: TouchGal
+      url: https://gal.red/
+      description: 一站式Galgame文化社区！galgame专精，自建网盘，纯公益网站
+      tags: [galgame游戏, 网盘下载]
+
 
 - taxonomy: windows工具
   icon: fa-tools

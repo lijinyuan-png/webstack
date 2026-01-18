@@ -30,6 +30,11 @@
                         <a href="./" class="logo-expanded" >
                             <img src="./images/logo.png" height="40" alt="" />
                             &nbsp&nbsp{{ .Site.Title }}
+                            {{ if .Site.Params.subtitle }}
+                            <div style="font-size: 12px; color: #878888; margin-top: 2px;">
+                                {{ .Site.Params.subtitle }}
+                            </div>
+                            {{ end }}
                         </a>
                         <a href="./" class="logo-collapsed">
                             <img src="./images/logo.png" height="40" alt="">

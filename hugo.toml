@@ -13,6 +13,8 @@ copyright = "oulh"
 [params]
   keywords = "白嫖导航,webstack,hugo"
   description = "Webstack Hugo版主题,网址导航"
+  #网站副标题
+  subtitle = "质量大于数量，体验优先"
 
 #是否开启搜索栏，true开启，false关闭
 [params.search]
