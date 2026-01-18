@@ -62,7 +62,7 @@
       tags: [galgame游戏, 网盘下载]
 
 - taxonomy: 漫画
-  icon: fa-comic-book
+  icon: fa-book-open
   links: 
     - title: komiic
       url: https://komiic.com/
