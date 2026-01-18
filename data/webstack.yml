@@ -43,17 +43,17 @@
     - title: fitgirl
       url: https://fitgirl-repacks.site/popular-repacks/
       description: 国外知名游戏repack组，提供游戏本体以及补丁
-      tags: [游戏, bt下载，安装运行]
+      tags: [游戏, bt下载, 安装运行]
 
     - title: flysheep资源避难所
       url: https://sway.cloud.microsoft/ruijH7BYH9RwA9HG?ref=Link
       description: 国内游戏搬运站，资源齐全，质量不错
-      tags: [游戏, 网盘下载，安装运行]
+      tags: [游戏, 网盘下载, 安装运行]
 
     - title: switch520
       url: https://www.laoquzhang.com/
       description: 国内游戏搬运站，搬运付费游戏站内容，质量一般
-      tags: [游戏, 网盘下载，解压即撸]
+      tags: [游戏, 网盘下载, 解压即撸]
 
 
 - taxonomy: windows工具
@@ -67,7 +67,7 @@
     - title: HEU_KMS_Activitor
       url: https://github.com/zbezj/HEU_KMS_Activator/releases
       description: Windows和Office激活工具,一键自动识别，安装，激活
-      tags: [激活工具, windows，office]
+      tags: [激活工具, windows, office]
 
 
 - taxonomy: 破解软件资源
@@ -76,17 +76,17 @@
     - title: 果核剥壳
       url: https://www.ghxi.com/
       description: 绿色破解软件下载网站，资源丰富，可信度较高
-      tags: [论坛，破解软件，软件下载]
+      tags: [论坛, 破解软件, 软件下载]
       
     - title: 吾爱破解
       url: https://www.52pojie.cn/
       description: 专业的软件破解技术论坛，老牌破解站，可信度很高
-      tags: [论坛，破解软件，软件下载]
+      tags: [论坛, 破解软件, 软件下载]
 
-     - title: v2ex
+    - title: v2ex
       url: https://www.v2ex.com/
       description: 好玩的软件论坛，分享有创意的软件以及思路
-      tags: [论坛，软件分享]
+      tags: [论坛, 软件分享]
 
 
 
