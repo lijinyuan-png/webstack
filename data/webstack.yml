@@ -101,7 +101,18 @@
       description: 好玩的软件论坛，分享有创意的软件以及思路
       tags: [论坛, 软件分享]
 
+- taxonomy: 优秀的cms模板
+  icon: fa-file-code
+  links: 
+    - title: lecms
+      url: https://www.lecms.cc/
+      description: PHP & MYSQL架构，基于xiunoPHP框架开发的千万级大数据网站内容管理系统
+      tags: [论坛cms, 案例:hifini]
 
-
+    - title: Flarum
+      url: https://flarum.org.cn/
+      description: 优秀的flarum论坛模板，功能完善，性能稳定
+      tags: [论坛cms]
+    
 ---
      
