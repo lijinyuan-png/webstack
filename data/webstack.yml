@@ -1,6 +1,7 @@
 ---
 
 - taxonomy: 影视
+  icon: fa-film
   list:
     - term: 电影
       links:
@@ -57,7 +58,7 @@
 
 
 - taxonomy: windows工具
-  icon: fa-star
+  icon: fa-tools
   links: 
     - title: mocreak
       url: https://www.mocreak.com/
@@ -71,7 +72,7 @@
 
 
 - taxonomy: 破解软件资源
-  icon: fa-star
+  icon: fa-tools
   links: 
     - title: 果核剥壳
       url: https://www.ghxi.com/
