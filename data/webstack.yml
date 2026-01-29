@@ -15,6 +15,11 @@
           description: 热门高分资源主推，体验不错
           tags: [电影, 在线]
 
+        - title: 影巢
+          url: https://hdhive.com/
+          description: 影视索引站，提供影视资源的网盘链接，邀请注册，需要积分
+          tags: [电影, 网盘, 下载]
+
     - term: 动漫
       links: 
         - title: 蜜柑计划 - mikan
