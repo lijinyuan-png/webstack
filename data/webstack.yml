@@ -159,6 +159,12 @@
       description: 技术分享，生活感想，环境搭建等...
       tags: [个人博客，技术分享]
 
+  links: 
+    - title: lyc8503
+      url: https://blog.lyc8503.net/
+      description: 南京大学软件工程博客
+      tags: [个人博客，技术分享]
+
 - taxonomy: 优秀的cms模板
   icon: fa-file-code
   links: 
