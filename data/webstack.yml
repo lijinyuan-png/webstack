@@ -132,6 +132,11 @@
       description: Windows和Office激活工具,一键自动识别，安装，激活
       tags: [激活工具, windows, office]
 
+    - title: privazer
+      url: https://privazer.com/zc/download.php
+      description: C盘一键式清理工具，亲测夯爆了，非常好用
+      tags: [C盘清理, windows, 一键工具]
+
 
 - taxonomy: 破解软件资源
   icon: fa-tools
