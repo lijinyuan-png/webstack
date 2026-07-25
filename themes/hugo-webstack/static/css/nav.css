@@ -268,6 +268,26 @@ p {
   color: #eee;
 }
 
+.sidebar-menu .logo-env .sidebar-toggle {
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.sidebar-menu .logo-env .sidebar-toggle a {
+  color: var(--text-sidebar);
+  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.sidebar-menu .logo-env .sidebar-toggle a:hover {
+  color: var(--text-sidebar-hover);
+  background: var(--bg-sidebar-hover);
+}
+
 /* --- 侧边栏菜单 --- */
 .sidebar-menu .main-menu {
   padding: 0 20px;

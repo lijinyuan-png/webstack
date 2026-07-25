@@ -35,6 +35,11 @@
                             <img src="./images/logo.png" height="40" alt="">
                         </a>
                     </div>
+                    <div class="sidebar-toggle hidden-xs">
+                        <a href="#" data-toggle="sidebar" style="color:var(--text-sidebar);font-size:18px;padding:8px 12px;">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
                     <div class="mobile-menu-toggle visible-xs">
                         <a href="#" data-toggle="mobile-menu">
                             <i class="fa fa-bars"></i>
@@ -85,28 +90,6 @@
             </div>
         </div>
         <div class="main-content">
-<nav class="navbar user-info-navbar" role="navigation">
-    <div class="navbar-content">
-        <ul class="user-info-menu left-links list-inline list-unstyled">
-            <li class="hidden-xs">
-                <a href="#" data-toggle="sidebar" ><i class="fa fa-bars"></i></a>
-            </li>
-            <li>
-              <div id="he-plugin-simple"></div>
-              <script>WIDGET = {CONFIG: {"modules": "12034","background": 5,"tmpColor": "aaa","tmpSize": 16,"cityColor": "aaa","citySize": 16,"aqiSize": 16,"weatherIconSize": 24,"alertIconSize": 18,"padding": "30px 10px 30px 10px","shadow": "1","language": "auto","borderRadius": 5,"fixed": "false","vertical": "middle","horizontal": "left","key": "a922adf8928b4ac1ae7a31ae7375e191"}}</script>
-              <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
-            </li> 
-            <!-- 天气 end -->
-      </ul>
-        {{ if .Site.Params.Github.enable }}
-        <ul class="user-info-menu right-links list-inline list-unstyled">
-            <li class="hidden-sm hidden-xs">
-                <a href="{{ .Site.Params.Github.url }}" target="_blank" title="Git Repo"><i class="fa fa-code"></i></a>
-            </li>
-        </ul>
-        {{ end }}
-    </div>
-</nav>
 {{ template "search.html" . }}
 <div class="sites-list" style="margin-bottom: 8.5rem;">
 {{ range .Site.Data.webstack }}
@@ -365,10 +348,7 @@
             $parent.children('ul').show();
         }
         href = $(this).attr("href");
-        var navbarEl = document.querySelector('.navbar-content');
-        var navbarH = navbarEl ? navbarEl.getBoundingClientRect().height : 100;
-        if (navbarH < 100) navbarH = 100;
-        pos = $(href).offset().top - navbarH - 20;
+        pos = $(href).offset().top - 15;
         $("html,body").stop(true, true).animate({
             scrollTop: pos
         }, 500);
