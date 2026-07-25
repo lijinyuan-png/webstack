@@ -115,27 +115,28 @@ input.addEventListener("input", debounce(search, 300));
 
 /*搜索按钮：打开搜索框*/
 document.getElementById('search-btn').addEventListener('click', function() {  
-    var searchBox = document.getElementById('overlay');  
-    if (searchBox.style.display === 'none') {  
-    searchBox.style.display = 'block';
-    var inputElement = document.getElementById('search-input');  
-    inputElement.focus(); 
+    var overlay = document.getElementById('overlay');  
+    if (!overlay.classList.contains('visible')) {  
+        overlay.classList.add('visible');
+        var inputElement = document.getElementById('search-input');  
+        inputElement.focus();
+        inputElement.select();
     } else {  
-    searchBox.style.display = 'none';
+        overlay.classList.remove('visible');
     }  
 });
 /*Ctrl+F：打开搜索框*/
 document.addEventListener('keydown', function(event) { 
-    var searchBox = document.getElementById('overlay');
+    var overlay = document.getElementById('overlay');
     var inputElement = document.getElementById('search-input');  
     if (event.ctrlKey && event.key === 'f') { // CTRL+F  
-        if (searchBox.style.display === 'none') {               
-            searchBox.style.display = 'block';
+        event.preventDefault(); // 阻止默认行为
+        if (!overlay.classList.contains('visible')) {               
+            overlay.classList.add('visible');
             inputElement.focus();
-            event.preventDefault(); // 阻止默认行为 
-        }else{
-            searchBox.style.display = 'none';
-            event.preventDefault();
+            inputElement.select();
+        } else {
+            overlay.classList.remove('visible');
         }
     }  
 });
@@ -144,13 +145,13 @@ document.getElementById('overlay').addEventListener('click', function(event) {
     var searchBox = document.getElementById('search-box');   
     if (!searchBox.contains(event.target)) {
     // 点击的不是search-box本身或其子元素  
-    this.style.display = 'none';
+    this.classList.remove('visible');
     }  
 });
 /*搜索框关闭按钮*/
 document.getElementById('close-button').addEventListener('click', function(event) {
-     var searchBox = document.getElementById('overlay'); 
-     searchBox.style.display = 'none';
+     var overlay = document.getElementById('overlay'); 
+     overlay.classList.remove('visible');
 });
 /*键盘事件：结果列表选择*/        
 

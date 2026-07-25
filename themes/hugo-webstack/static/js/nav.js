@@ -755,11 +755,41 @@ function ps_destroy()
 	}
 }
 // Element Attribute Helper
-function attrDefault($el, data_var, default_val)
-{
-	if(typeof $el.data(data_var) != 'undefined')
+	function attrDefault($el, data_var, default_val)
 	{
-		return $el.data(data_var);
+		if(typeof $el.data(data_var) != 'undefined')
+		{
+			return $el.data(data_var);
+		}
+		return default_val;
 	}
-	return default_val;
-}
+
+	/* ===== 卡片入场动画 (Intersection Observer) ===== */
+	;(function($, window, undefined) {
+		"use strict";
+		$(document).ready(function() {
+			if ('IntersectionObserver' in window) {
+				var cardObserver = new IntersectionObserver(function(entries) {
+					entries.forEach(function(entry) {
+						if (entry.isIntersecting) {
+							var siblings = Array.from(entry.target.parentNode.children);
+							var index = siblings.indexOf(entry.target);
+							entry.target.style.transitionDelay = (index * 0.04) + 's';
+							entry.target.classList.add('entered');
+							cardObserver.unobserve(entry.target);
+						}
+					});
+				}, {
+					threshold: 0.1,
+					rootMargin: '0px 0px -30px 0px'
+				});
+
+				$('.xe-card').each(function() {
+					cardObserver.observe(this);
+				});
+			} else {
+				// 低版本浏览器降级：直接显示所有卡片
+				$('.xe-card').addClass('entered');
+			}
+		});
+	})(jQuery, window);

@@ -241,8 +241,8 @@
             </footer>
         </div>
     </div>
-    <div id="overlay" style="display:none">  
-    <div id="search-box" >
+    <div id="overlay">  
+	    <div id="search-box" >
         <a href="javascript:" id="close-button" title="点击周围任意地方也可以关闭。"><i class="fa far  fa-circle-xmark" ></i></a>
         <form onsubmit="return false;">
             <input type="text" id="search-input" placeholder="输入关键词{{ if .Site.Params.pinyin.enable }}、拼音或拼音首字母{{ end }}" autocomplete="off">
@@ -258,17 +258,32 @@
 <script type="text/javascript">
     $(document).ready(function() {
         <!-- 黑暗和明亮模式 START -->
-        $('footer.main-footer .foot-button .bright-dark').click(function(){   
-            var currentIcon = $(this).find('i').attr('class'); 
-            if (currentIcon.includes('fa-moon')) {
-                $(this).find('i').removeClass('fa-moon').addClass('fa-sun');
-                $('body').removeClass('white').addClass('black');
-            }else if (currentIcon.includes('fa-sun')) { 
-                    $(this).find('i').removeClass('fa-sun').addClass('fa-moon');
-                    $('body').removeClass('black').addClass('white');
-            }        
-        });
-        <!-- 黑暗和明亮模式 END -->
+	        $('footer.main-footer .foot-button .bright-dark').click(function(){   
+	            var currentIcon = $(this).find('i').attr('class'); 
+	            if (currentIcon.includes('fa-moon')) {
+	                $(this).find('i').removeClass('fa-moon').addClass('fa-sun');
+	                $('body').removeClass('white').addClass('black');
+	                try { localStorage.setItem('theme', 'dark'); } catch(e) {}
+	            }else if (currentIcon.includes('fa-sun')) { 
+	                    $(this).find('i').removeClass('fa-sun').addClass('fa-moon');
+	                    $('body').removeClass('black').addClass('white');
+	                    try { localStorage.setItem('theme', 'light'); } catch(e) {}
+	            }        
+	        });
+	        <!-- 页面加载时应用保存的主题 -->
+	        (function() {
+	            try {
+	                var savedTheme = localStorage.getItem('theme');
+	                if (savedTheme === 'dark' && !$('body').hasClass('black')) {
+	                    $('body').removeClass('white').addClass('black');
+	                    $('.bright-dark i').removeClass('fa-moon').addClass('fa-sun');
+	                } else if (savedTheme === 'light' && $('body').hasClass('black')) {
+	                    $('body').removeClass('black').addClass('white');
+	                    $('.bright-dark i').removeClass('fa-sun').addClass('fa-moon');
+	                }
+	            } catch(e) {}
+	        })();
+	        <!-- 黑暗和明亮模式 END -->
         <!-- 利用iowen API 获取网址icon START --> 
         $(".geticon").each(function(){
             var url = $(this).find('a').attr('href');
