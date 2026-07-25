@@ -294,25 +294,7 @@
         })
         <!-- END 利用iowen API 获取网址icon START-->
         
-        $(document).on('click', '.has-sub', function(){
-            var _this = $(this)
-            if(!$(this).hasClass('expanded')) {
-               setTimeout(function(){
-                    _this.find('ul').attr("style","")
-               }, 300);
-              
-            } else {
-                $('.has-sub ul').each(function(id,ele){
-                    var _that = $(this)
-                    if(_this.find('ul')[0] != ele) {
-                        setTimeout(function(){
-                            _that.attr("style","")
-                        }, 300);
-                    }
-                })
-            }
-        })
-        $('.user-info-menu .hidden-xs').click(function(){
+        $('.user-info-navbar .hidden-xs').click(function(){
             var col_width = $('.col-md-3').width();
             var row_width = $('.row').width();
             var percentage = ((col_width + 30) / row_width).toFixed(2);
@@ -355,24 +337,15 @@
             }
         })
         $("#main-menu li ul li").click(function() {
-            $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
-            $(this).addClass('active'); // 添加当前元素的样式
+            $(this).siblings('li').removeClass('active');
+            $(this).addClass('active');
+            /* 展开父级菜单：找到最近的 li.has-sub 并展开 */
+            var $parent = $(this).closest('li.has-sub');
+            if ($parent.length && !$parent.hasClass('expanded')) {
+                $parent.addClass('expanded');
+                $parent.children('ul').show();
+            }
         });
-        $("a.smooth").click(function(ev) {
-            ev.preventDefault();
-            if($("#main-menu").hasClass('mobile-is-visible') != true)
-                return;
-            public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
-            ps_destroy();
-            $("html, body").animate({
-                scrollTop: $($(this).attr("href")).offset().top - 80
-            }, {
-                duration: 500,
-                easing: "swing"
-            });
-        });
-        return false;
-    });
 
     /*点击分类跳转*/
     var href = "";
@@ -385,6 +358,12 @@
             $(this).removeClass("active");
         });
         $(this).parent("li").addClass("active");
+        /* 展开父级菜单 */
+        var $parent = $(this).closest('li.has-sub');
+        if ($parent.length && !$parent.hasClass('expanded')) {
+            $parent.addClass('expanded');
+            $parent.children('ul').show();
+        }
         href = $(this).attr("href");
         pos = $(href).position().top - 100;
         $("html,body").animate({
