@@ -365,8 +365,9 @@
             $parent.children('ul').show();
         }
         href = $(this).attr("href");
-        pos = $(href).position().top - 100;
-        $("html,body").animate({
+        var navbarHeight = $('.navbar-content').outerHeight(true) || 0;
+        pos = $(href).offset().top - navbarHeight - 15;
+        $("html,body").stop(true, true).animate({
             scrollTop: pos
         }, 500);
     });

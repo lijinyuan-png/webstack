@@ -151,10 +151,6 @@ body {
   transition: background-color var(--transition-theme), color var(--transition-theme);
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 /* --- 自定义滚动条 --- */
 ::-webkit-scrollbar {
   width: 6px;
