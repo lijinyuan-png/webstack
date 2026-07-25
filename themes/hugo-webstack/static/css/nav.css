@@ -811,6 +811,11 @@ body.black .navbar .navbar-content {
   background: var(--bg-card-hover);
 }
 
+/* 确保 hover 的卡片浮动在相邻卡片之上 */
+.xe-card:hover {
+  z-index: 2;
+}
+
 .box2:hover::after {
   opacity: 1;
 }
