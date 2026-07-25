@@ -365,7 +365,8 @@
             $parent.children('ul').show();
         }
         href = $(this).attr("href");
-        var navbarH = $('.navbar-content').outerHeight(true) || 100;
+        var navbarEl = document.querySelector('.navbar-content');
+        var navbarH = navbarEl ? navbarEl.getBoundingClientRect().height : 100;
         if (navbarH < 100) navbarH = 100;
         pos = $(href).offset().top - navbarH - 20;
         $("html,body").stop(true, true).animate({
