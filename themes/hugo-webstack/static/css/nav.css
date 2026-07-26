@@ -729,6 +729,24 @@ nav.navbar {
   transition: background var(--transition-theme), border-color var(--transition-theme), box-shadow var(--transition-theme);
 }
 
+.main-content {
+  padding-top: 80px;
+}
+
+.user-info-navbar {
+  position: fixed;
+  top: 0;
+  left: 250px;
+  right: 0;
+  z-index: 2000;
+  margin: 0;
+  transition: left 0.25s ease;
+}
+
+.sidebar-menu.collapsed + .main-content .user-info-navbar {
+  left: 80px;
+}
+
 body.black .navbar .navbar-content {
   background: var(--glass-bg-dark);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
