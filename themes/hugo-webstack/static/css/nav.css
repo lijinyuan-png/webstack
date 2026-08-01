@@ -701,20 +701,13 @@ p {
 
 /* ===== 6. 导航栏 ===== */
 nav.navbar {
-  position: fixed;
-  z-index: 2000 !important;
-  width: calc(100% - 250px);
   padding: 0;
   border: 0;
   background-color: transparent;
 }
 
-.sidebar-menu.collapsed + .main-content > nav.navbar {
-  width: calc(100% - 80px);
-}
-
 .navbar .navbar-content {
-  position: absolute;
+  position: relative;
   display: flex;
   width: 100%;
   height: 60px;
@@ -727,24 +720,6 @@ nav.navbar {
   border-bottom: 1px solid var(--border-subtle);
   box-shadow: var(--shadow-sm);
   transition: background var(--transition-theme), border-color var(--transition-theme), box-shadow var(--transition-theme);
-}
-
-.main-content {
-  padding-top: 80px;
-}
-
-.user-info-navbar {
-  position: fixed;
-  top: 0;
-  left: 250px;
-  right: 0;
-  z-index: 2000;
-  margin: 0;
-  transition: left 0.25s ease;
-}
-
-.sidebar-menu.collapsed + .main-content .user-info-navbar {
-  left: 80px;
 }
 
 body.black .navbar .navbar-content {
