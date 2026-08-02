@@ -347,26 +347,29 @@
             }
         });
 
-    /*点击分类跳转*/
-    var href = "";
-    var pos = 0;
-    $("a.smooth").click(function(e) {
+    /*点击分类跳转：平滑滑动到对应栏目（事件委托，避免其他脚本干扰导致退化为原生锚点跳转）*/
+    $(document).on('click', 'a.smooth', function(e) {
         e.preventDefault();
-        if($("#main-menu").hasClass('mobile-is-visible') === true)
+        if ($("#main-menu").hasClass('mobile-is-visible') === true)
             return;
-        $("#main-menu li").each(function() {
-            $(this).removeClass("active");
-        });
-        $(this).parent("li").addClass("active");
+        var $this = $(this);
+        var href = $this.attr('href');
+        if (!href || href === '#') return;
+        var $target = $(href);
+        if (!$target.length) return;
+
+        $("#main-menu li").removeClass("active");
+        $this.parent("li").addClass("active");
         /* 展开父级菜单 */
-        var $parent = $(this).closest('li.has-sub');
+        var $parent = $this.closest('li.has-sub');
         if ($parent.length && !$parent.hasClass('expanded')) {
             $parent.addClass('expanded');
             $parent.children('ul').show();
         }
-        href = $(this).attr("href");
-        pos = $(href).offset().top - 80;
-        $("html,body").stop(true, true).animate({
+        /* 偏移量 = 导航栏高度 + 额外间距，避免目标标题被固定元素遮挡或紧贴顶部 */
+        var navbarH = $('.navbar .navbar-content').outerHeight() || 60;
+        var pos = $target.offset().top - navbarH - 20;
+        $("html, body").stop(true, true).animate({
             scrollTop: pos
         }, 500);
     });
